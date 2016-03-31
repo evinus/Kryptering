@@ -1,0 +1,8 @@
+c:\users\daniel\documents\visual studio 2013\Projects\Kryptering\Kryptering\bin\Debug\Kryptering.exe.config
+c:\users\daniel\documents\visual studio 2013\Projects\Kryptering\Kryptering\bin\Debug\Kryptering.exe
+c:\users\daniel\documents\visual studio 2013\Projects\Kryptering\Kryptering\bin\Debug\Kryptering.pdb
+c:\users\daniel\documents\visual studio 2013\Projects\Kryptering\Kryptering\obj\Debug\Kryptering.Form1.resources
+c:\users\daniel\documents\visual studio 2013\Projects\Kryptering\Kryptering\obj\Debug\Kryptering.Properties.Resources.resources
+c:\users\daniel\documents\visual studio 2013\Projects\Kryptering\Kryptering\obj\Debug\Kryptering.csproj.GenerateResource.Cache
+c:\users\daniel\documents\visual studio 2013\Projects\Kryptering\Kryptering\obj\Debug\Kryptering.exe
+c:\users\daniel\documents\visual studio 2013\Projects\Kryptering\Kryptering\obj\Debug\Kryptering.pdb
