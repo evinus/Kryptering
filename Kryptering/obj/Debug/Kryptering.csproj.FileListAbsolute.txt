@@ -6,3 +6,12 @@ c:\users\daniel\documents\visual studio 2013\Projects\Kryptering\Kryptering\obj\
 c:\users\daniel\documents\visual studio 2013\Projects\Kryptering\Kryptering\obj\Debug\Kryptering.csproj.GenerateResource.Cache
 c:\users\daniel\documents\visual studio 2013\Projects\Kryptering\Kryptering\obj\Debug\Kryptering.exe
 c:\users\daniel\documents\visual studio 2013\Projects\Kryptering\Kryptering\obj\Debug\Kryptering.pdb
+C:\Users\Daniel\Documents\GitHub\Kryptering\Kryptering\bin\Debug\Kryptering.exe.config
+C:\Users\Daniel\Documents\GitHub\Kryptering\Kryptering\obj\Debug\Kryptering.exe
+C:\Users\Daniel\Documents\GitHub\Kryptering\Kryptering\obj\Debug\Kryptering.pdb
+C:\Users\Daniel\Documents\GitHub\Kryptering\Kryptering\bin\Debug\Kryptering.exe
+C:\Users\Daniel\Documents\GitHub\Kryptering\Kryptering\bin\Debug\Kryptering.pdb
+C:\Users\Daniel\Documents\GitHub\Kryptering\Kryptering\obj\Debug\Kryptering.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Documents\GitHub\Kryptering\Kryptering\obj\Debug\Kryptering.Form1.resources
+C:\Users\Daniel\Documents\GitHub\Kryptering\Kryptering\obj\Debug\Kryptering.Properties.Resources.resources
+C:\Users\Daniel\Documents\GitHub\Kryptering\Kryptering\obj\Debug\Kryptering.csproj.GenerateResource.Cache

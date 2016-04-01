@@ -19,19 +19,40 @@ namespace Kryptering
         string Texten;
         private void btnKrypera_Click(object sender, EventArgs e)
         {
-            Texten = textBox1.Text;
+            
             char[] ny = tbxNyckel.Text.ToCharArray();
-            char[] teck = Texten.ToCharArray();
-            for (int i = 0; i < teck.Length;i++ )
+            char[] teck = textBox1.Text.ToCharArray();
+            if (rbnTecken.Checked)
             {
-                teck[i] = (char)((int)teck[i] + 1);
+                textBox1.Text = TeckenKrypto();
             }
-            textBox1.Text = new string(teck);
         }
 
         private void btnDekryptera_Click(object sender, EventArgs e)
         {
-
+            char[] ny = tbxNyckel.Text.ToCharArray();
+            if (rbnTecken.Checked)
+            {
+                textBox1.Text = TeckenDekrypto();
+            }
+        }
+        string TeckenKrypto()
+        {
+            char[] teck = textBox1.Text.ToCharArray();
+            for (int i = 0; i < teck.Length; i++)
+            {
+                teck[i] = (char)((int)teck[i] + 1);
+            }
+            return new string(teck);
+        }
+        string TeckenDekrypto()
+        {
+            char[] teck = textBox1.Text.ToCharArray();
+            for (int i = 0; i < teck.Length; i++)
+            {
+                teck[i] = (char)((int)teck[i] - 1);
+            }
+            return new string(teck);
         }
     }
 }
