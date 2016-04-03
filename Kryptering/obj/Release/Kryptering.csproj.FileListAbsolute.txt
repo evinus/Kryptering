@@ -1,0 +1,8 @@
+C:\Users\Daniel\Documents\GitHub\Kryptering\Kryptering\bin\Release\Kryptering.exe.config
+C:\Users\Daniel\Documents\GitHub\Kryptering\Kryptering\bin\Release\Kryptering.exe
+C:\Users\Daniel\Documents\GitHub\Kryptering\Kryptering\bin\Release\Kryptering.pdb
+C:\Users\Daniel\Documents\GitHub\Kryptering\Kryptering\obj\Release\Kryptering.Form1.resources
+C:\Users\Daniel\Documents\GitHub\Kryptering\Kryptering\obj\Release\Kryptering.Properties.Resources.resources
+C:\Users\Daniel\Documents\GitHub\Kryptering\Kryptering\obj\Release\Kryptering.csproj.GenerateResource.Cache
+C:\Users\Daniel\Documents\GitHub\Kryptering\Kryptering\obj\Release\Kryptering.exe
+C:\Users\Daniel\Documents\GitHub\Kryptering\Kryptering\obj\Release\Kryptering.pdb

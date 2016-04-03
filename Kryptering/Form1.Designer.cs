@@ -30,12 +30,13 @@
         {
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.rnSeriös = new System.Windows.Forms.RadioButton();
+            this.rbVigenere = new System.Windows.Forms.RadioButton();
+            this.rbnTecken = new System.Windows.Forms.RadioButton();
             this.btnDekryptera = new System.Windows.Forms.Button();
             this.btnKrypera = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.tbxNyckel = new System.Windows.Forms.TextBox();
-            this.rbnTecken = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -56,7 +57,8 @@
             // 
             // splitContainer1.Panel2
             // 
-            this.splitContainer1.Panel2.Controls.Add(this.radioButton1);
+            this.splitContainer1.Panel2.Controls.Add(this.rnSeriös);
+            this.splitContainer1.Panel2.Controls.Add(this.rbVigenere);
             this.splitContainer1.Panel2.Controls.Add(this.rbnTecken);
             this.splitContainer1.Panel2.Controls.Add(this.btnDekryptera);
             this.splitContainer1.Panel2.Controls.Add(this.btnKrypera);
@@ -76,6 +78,39 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(613, 210);
             this.textBox1.TabIndex = 4;
+            // 
+            // rnSeriös
+            // 
+            this.rnSeriös.AutoSize = true;
+            this.rnSeriös.Location = new System.Drawing.Point(498, 11);
+            this.rnSeriös.Name = "rnSeriös";
+            this.rnSeriös.Size = new System.Drawing.Size(54, 17);
+            this.rnSeriös.TabIndex = 8;
+            this.rnSeriös.TabStop = true;
+            this.rnSeriös.Text = "Seriös";
+            this.rnSeriös.UseVisualStyleBackColor = true;
+            // 
+            // rbVigenere
+            // 
+            this.rbVigenere.AutoSize = true;
+            this.rbVigenere.Location = new System.Drawing.Point(427, 11);
+            this.rbVigenere.Name = "rbVigenere";
+            this.rbVigenere.Size = new System.Drawing.Size(67, 17);
+            this.rbVigenere.TabIndex = 7;
+            this.rbVigenere.TabStop = true;
+            this.rbVigenere.Text = "Vigenère";
+            this.rbVigenere.UseVisualStyleBackColor = true;
+            // 
+            // rbnTecken
+            // 
+            this.rbnTecken.AutoSize = true;
+            this.rbnTecken.Location = new System.Drawing.Point(358, 11);
+            this.rbnTecken.Name = "rbnTecken";
+            this.rbnTecken.Size = new System.Drawing.Size(62, 17);
+            this.rbnTecken.TabIndex = 6;
+            this.rbnTecken.TabStop = true;
+            this.rbnTecken.Text = "Tecken";
+            this.rbnTecken.UseVisualStyleBackColor = true;
             // 
             // btnDekryptera
             // 
@@ -113,28 +148,6 @@
             this.tbxNyckel.Size = new System.Drawing.Size(100, 20);
             this.tbxNyckel.TabIndex = 2;
             // 
-            // rbnTecken
-            // 
-            this.rbnTecken.AutoSize = true;
-            this.rbnTecken.Location = new System.Drawing.Point(358, 11);
-            this.rbnTecken.Name = "rbnTecken";
-            this.rbnTecken.Size = new System.Drawing.Size(62, 17);
-            this.rbnTecken.TabIndex = 6;
-            this.rbnTecken.TabStop = true;
-            this.rbnTecken.Text = "Tecken";
-            this.rbnTecken.UseVisualStyleBackColor = true;
-            // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(427, 11);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(85, 17);
-            this.radioButton1.TabIndex = 7;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "radioButton1";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -162,7 +175,8 @@
         private System.Windows.Forms.Button btnDekryptera;
         private System.Windows.Forms.Button btnKrypera;
         private System.Windows.Forms.RadioButton rbnTecken;
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton rbVigenere;
+        private System.Windows.Forms.RadioButton rnSeriös;
     }
 }
 
