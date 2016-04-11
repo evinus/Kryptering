@@ -37,19 +37,17 @@ namespace Kryptering
             }
             if(rbVigenere.Checked)
             {
-                char nya = alpha[3 + 5];
-                for (int i =0; i < teck.Length; i++)
+                int i = -1;
+                while(i < teck.Length)
                 {
                     for (int u = 0; u < ny.Length; u++)
                     {
-                        if(teck[i] == ' ')
-                        {
-                            continue;
-                        }
+                         i += 1;
+                        if (i == teck.Length) break;if(teck[i] == ' ') continue;
                         index[i] = Array.IndexOf(alpha, teck[i]);
                         nyIndex[u] = Array.IndexOf(alpha, ny[u]);
                         int lokal = index[i] + nyIndex[u];
-                        teck[i] = alpha[lokal % 29];                   
+                        teck[i] = alpha[lokal % 29];                
                     }
                 }
                 textBox1.Text = new string(teck);
@@ -62,6 +60,7 @@ namespace Kryptering
             char[] teck = textBox1.Text.ToCharArray();
             int[] index = new int[teck.Length];
             int[] nyIndex = new int[ny.Length];
+            int i = -1;
             if (rbnTecken.Checked)
             {
                 textBox1.Text = TeckenDekrypto();
@@ -72,14 +71,12 @@ namespace Kryptering
             }
             if(rbVigenere.Checked)
             {
-                for (int i = 0; i < teck.Length; i++)
+                while (i < teck.Length) 
                 {
                     for (int u = 0; u < ny.Length; u++)
                     {
-                        if (teck[i] == ' ')
-                        {
-                            continue;
-                        }
+                        i+=1;
+                        if (i == teck.Length) break; if (teck[i] == ' ')  continue;
                         index[i] = Array.IndexOf(alpha, teck[i]);
                         nyIndex[u] = Array.IndexOf(alpha, ny[u]);
                         int lokal = (index[i] - nyIndex[u]) % 29;
@@ -87,8 +84,7 @@ namespace Kryptering
                         {
                             lokal = lokal + 29;
                         }
-                        teck[i] = alpha[lokal];
-
+                        teck[i] = alpha[lokal];                    
                     }
                 }
                 textBox1.Text = new string(teck);
